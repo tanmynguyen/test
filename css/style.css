@@ -1,0 +1,17 @@
+/* line 1, ../sass/style.scss */
+.container {
+  max-width: 1280px;
+}
+
+/* line 3, ../sass/style.scss */
+header {
+  background: url("../imgs/border-menu.png") no-repeat;
+  background-size: 100%;
+  height: 80px;
+  margin-top: 10px;
+}
+/* line 4, ../sass/style.scss */
+header a {
+  font-size: 14px;
+  text-transform: uppercase;
+}

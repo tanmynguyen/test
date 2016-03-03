@@ -2,9 +2,9 @@
   "version": 3,
   "file": "style.css",
   "sources": [
-    "style.sass"
+    "style.scss"
   ],
   "sourcesContent": [],
-  "mappings": "",
+  "mappings": ";AAAA,UAAU,CAAC;EAAE,SAAS,EAAE,MAAO,GAAnB;;;AAEZ,MAAM,CAAC;EAAE,UAAU,EAAE,8BAAG,CAA4B,SAAS;EAAC,eAAe,EAAE,IAAK;EAAC,MAAM,EAAE,IAAK;EAAC,UAAU,EAAE,IAAK,GAA5G;;EACJ,MAAM,CAAC,CAAC,CAAN;IAAE,SAAS,EAAE,IAAK;IAAC,cAAc,EAAE,SAAU,GAA5C",
   "names": []
 }
