@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Notosan_bold";
+    src: url('../fonts/NotoSans-Bold.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Notosan_reg";
+    src: url('../fonts/NotoSans-Regular.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "iCielSoupofJustice";
+    src: url('../fonts/iCielSoupofJustice.ttf') format('opentype');
+}
+
+@font-face {
+    font-family: "Opensans";
+    src: url('../fonts/OpenSans-Bold.ttf') format('opentype');
+}

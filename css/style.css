@@ -1,17 +1,90 @@
-/* line 1, ../sass/style.scss */
+@import url(fonts.css);
+/* line 3, ../sass/style.scss */
 .container {
   max-width: 1280px;
 }
 
-/* line 3, ../sass/style.scss */
+/* line 7, ../sass/style.scss */
 header {
   background: url("../imgs/border-menu.png") no-repeat;
   background-size: 100%;
   height: 80px;
   margin-top: 10px;
 }
-/* line 4, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
+header .animation-img {
+  margin-top: 15px;
+  margin-left: -6px;
+}
+/* line 9, ../sass/style.scss */
+header .animation-img img {
+  transform: rotateX(90deg);
+  transition: 10s;
+}
+/* line 11, ../sass/style.scss */
 header a {
   font-size: 14px;
   text-transform: uppercase;
+  color: #666666;
+  font-family: 'Notosan_bold';
+}
+/* line 12, ../sass/style.scss */
+header a:hover {
+  text-decoration: none;
+  color: #009fe3;
+}
+
+/* line 16, ../sass/style.scss */
+.hanh-phi {
+  position: absolute;
+  left: 0;
+}
+
+/* line 18, ../sass/style.scss */
+.thong-bao {
+  background: url("../imgs/bg-thong-bao.png") no-repeat;
+  position: absolute;
+  bottom: 0;
+  top: 37%;
+  height: 350px;
+  left: 37%;
+  background-size: contain;
+  transform: scale(0);
+}
+/* line 19, ../sass/style.scss */
+.thong-bao h2 {
+  margin-top: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'iCielSoupofJustice';
+  font-size: 35px;
+}
+/* line 20, ../sass/style.scss */
+.thong-bao p {
+  font-family: 'Notosan_reg';
+  text-align: center;
+  padding: 0 66px;
+}
+/* line 21, ../sass/style.scss */
+.thong-bao a {
+  display: block;
+  text-align: center;
+  font-family: 'Opensans';
+  background-color: #f9602d;
+  color: #ffffff;
+  transform: skewX(-20deg);
+  padding: 10px;
+  box-shadow: #f63318 3px 3px 0px 3px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* line 22, ../sass/style.scss */
+.thong-bao a:hover, .thong-bao a:active {
+  text-decoration: none;
+}
+
+/* line 26, ../sass/style.scss */
+.dam-ban {
+  position: absolute;
+  right: 0;
 }
